@@ -1,5 +1,7 @@
 # ZeusMonitoringTool
- Monitoring Tool
+ Monitoring Tool  
+ Die erste version dieses Tools ist ein Prototyp um Probleme zu finden und aus diesen zu lernen.  
+Auch die verwendeten Sprachen sind nicht fix.
 
 ## Beschreibung
 ### Server
@@ -11,3 +13,20 @@ Die erste Version des Clients soll in Python geschrieben werden. Der Client soll
 
 ### App
 Die Daten aus der DB am Server sollen auch über eine App angezeigt werden können. (Flutter)
+
+## Vorgehensweise
+### Server
+#### Backend
+##### PHP
+
+##### SQL DB
+MySQL
+
+#### Frontend
+Erste Version HTML Tables, die Die Daten anzeigen.  
+Später kann ich Grafiken hinzufügen (Nice2Have).
+
+
+### Client
+#### Python
+Geplant ist ein python script, dass beim starten des servers automatisch mitgestartet wird und dann regelmäsig Daten(zpu ram speicher auslastung) in die DB am monitoring Server schreibt.
